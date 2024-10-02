@@ -1,13 +1,21 @@
 Overview
-This project is a simple implementation of the classic Blackjack game using JavaScript, HTML, and CSS. The objective of the game is to get a card sum as close as possible to 21 without exceeding it. You can draw cards, and the game will automatically calculate your sum and determine whether you win or lose based on the rules of Blackjack.
+As a software engineer, I am continually seeking opportunities to enhance my programming skills and explore new technologies. This project is focused on creating a simple blackjack game using JavaScript. The goal of this project was to practice logic-based decision-making, game mechanics, and DOM manipulation within a web environment.
 
-Features
-Players start with a certain number of chips.
-Draw cards and try to reach 21.
-Win 100 chips when you hit Blackjack (sum of 21).
-Lose chips if your card sum exceeds 21.
-Game shows feedback on each action, including winning, losing, or busting.
-Technologies Used
-HTML: For structuring the game’s user interface.
-CSS: For styling the layout and enhancing the visual appeal.
-JavaScript: For handling game logic such as card drawing, summing values, and managing game state.
+The software is a basic blackjack game where the player is dealt two cards and tries to get as close as possible to 21 without going over. The player can draw additional cards, and the program tracks whether the player wins (gets 21), loses (goes over 21), or can continue the game. It also keeps track of the player's chips, deducting or awarding chips based on the game’s outcome.
+
+Software Demo Video: 
+
+Development Environment
+The development environment for this project included:
+
+Visual Studio Code for writing and debugging code.
+Chrome Developer Tools for testing and debugging.
+HTML and CSS for structuring and styling the web page.
+The project was written entirely in JavaScript with a focus on manipulating the DOM and implementing game logic.
+
+Useful Websites
+MDN Web Docs - JavaScript: 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+W3Schools - JavaScript: 
+https://www.w3schools.com/js/DEFAULT.asp
