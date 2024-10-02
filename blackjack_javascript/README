@@ -3,7 +3,7 @@ As a software engineer, I am continually seeking opportunities to enhance my pro
 
 The software is a basic blackjack game where the player is dealt two cards and tries to get as close as possible to 21 without going over. The player can draw additional cards, and the program tracks whether the player wins (gets 21), loses (goes over 21), or can continue the game. It also keeps track of the player's chips, deducting or awarding chips based on the game’s outcome.
 
-Software Demo Video: 
+Software Demo Video: https://youtu.be/9ns7z-3cYmA
 
 Development Environment
 The development environment for this project included:
