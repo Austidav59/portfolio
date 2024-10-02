@@ -1,0 +1,13 @@
+Overview
+This project is a simple implementation of the classic Blackjack game using JavaScript, HTML, and CSS. The objective of the game is to get a card sum as close as possible to 21 without exceeding it. You can draw cards, and the game will automatically calculate your sum and determine whether you win or lose based on the rules of Blackjack.
+
+Features
+Players start with a certain number of chips.
+Draw cards and try to reach 21.
+Win 100 chips when you hit Blackjack (sum of 21).
+Lose chips if your card sum exceeds 21.
+Game shows feedback on each action, including winning, losing, or busting.
+Technologies Used
+HTML: For structuring the game’s user interface.
+CSS: For styling the layout and enhancing the visual appeal.
+JavaScript: For handling game logic such as card drawing, summing values, and managing game state.
