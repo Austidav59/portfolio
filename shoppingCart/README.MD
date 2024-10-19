@@ -4,7 +4,7 @@ As a software engineer, I am continually seeking opportunities to enhance my pro
 The software is a basic shopping cart system where users can add items to their cart and manage their purchases. The program allows customers to select products from a list, specifying the quantity desired for each item. As products are added, the cart keeps a running total of the cost. Users can view their current cart contents, remove items if needed, and see an updated subtotal. The system also calculates taxes and shipping costs based on the total purchase amount. Finally, it provides a checkout feature where users can review their order summary, including the itemized list, subtotal, taxes, shipping, and the final total cost. This shopping cart program simulates a simplified e-commerce experience, helping users track their potential purchases before committing to buy.
 
 
-Software Demo Video: https://youtu.be/9ns7z-3cYmA
+Software Demo Video: https://youtu.be/jzL3EB7OF0s
 
 Development Environment
 The development environment for this project included:
