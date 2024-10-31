@@ -1,0 +1,15 @@
+/Users/austindavis/Cse310-Applied-Programing/weather api/weather/bin/Debug/net8.0/weather
+/Users/austindavis/Cse310-Applied-Programing/weather api/weather/bin/Debug/net8.0/weather.deps.json
+/Users/austindavis/Cse310-Applied-Programing/weather api/weather/bin/Debug/net8.0/weather.runtimeconfig.json
+/Users/austindavis/Cse310-Applied-Programing/weather api/weather/bin/Debug/net8.0/weather.dll
+/Users/austindavis/Cse310-Applied-Programing/weather api/weather/bin/Debug/net8.0/weather.pdb
+/Users/austindavis/Cse310-Applied-Programing/weather api/weather/obj/Debug/net8.0/weather.GeneratedMSBuildEditorConfig.editorconfig
+/Users/austindavis/Cse310-Applied-Programing/weather api/weather/obj/Debug/net8.0/weather.AssemblyInfoInputs.cache
+/Users/austindavis/Cse310-Applied-Programing/weather api/weather/obj/Debug/net8.0/weather.AssemblyInfo.cs
+/Users/austindavis/Cse310-Applied-Programing/weather api/weather/obj/Debug/net8.0/weather.csproj.CoreCompileInputs.cache
+/Users/austindavis/Cse310-Applied-Programing/weather api/weather/obj/Debug/net8.0/weather.sourcelink.json
+/Users/austindavis/Cse310-Applied-Programing/weather api/weather/obj/Debug/net8.0/weather.dll
+/Users/austindavis/Cse310-Applied-Programing/weather api/weather/obj/Debug/net8.0/refint/weather.dll
+/Users/austindavis/Cse310-Applied-Programing/weather api/weather/obj/Debug/net8.0/weather.pdb
+/Users/austindavis/Cse310-Applied-Programing/weather api/weather/obj/Debug/net8.0/weather.genruntimeconfig.cache
+/Users/austindavis/Cse310-Applied-Programing/weather api/weather/obj/Debug/net8.0/ref/weather.dll
