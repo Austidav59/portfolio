@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SdK11IZhYbKXZLmsHr/rjuryWCBDr+Oj45sn0rFcqyOe1Bk4retVLyBhOB7ZWFYIh/E6xVffzF2eQ76n+XMnNA==",
+  "dgSpecHash": "iIKMZkQkNFAJPfVJ2Enh9vguSaMT64oTt/rJ3WGgFoI+0yPCpubM7SsQd7tpzj8CCXTTKYj7Iu1lAcQoI5iN0g==",
   "success": true,
-  "projectFilePath": "/Users/austindavis/Cse310-Applied-Programing/portfolio-1/weather api/weather/weather.csproj",
+  "projectFilePath": "/Users/austindavis/Cse310-Applied-Programing/portfolio-1/weather/weather.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
