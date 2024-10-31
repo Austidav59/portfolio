@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -9,9 +10,10 @@ class Program
 
     static async Task Main()
     {
+        float[] coordinates = Questions();
         try
         {
-            var response = await fetchApi();
+            var response = await fetchApi(coordinates);
             if (response != null)
             {
                 string responseBody = await response.Content.ReadAsStringAsync();
@@ -24,7 +26,7 @@ class Program
         }
     }
 
-    public static async Task<HttpResponseMessage> fetchApi()
+    public static async Task<HttpResponseMessage> fetchApi(float[] coordinates)
     {
         try
         {
@@ -32,7 +34,7 @@ class Program
             string apiKey = "5784eb9613b67cdaccf583eadc08e2d2"; // Replace with your actual API key
 
             // Construct the request URL
-            string url = $"https://api.openweathermap.org/data/2.5/weather?lat=40.5622&lon=-111.9297&appid={apiKey}";
+            string url = $"https://api.openweathermap.org/data/2.5/weather?lat={coordinates[0]}&lon={coordinates[1]}&appid={apiKey}";
 
             // Make the GET request
             HttpResponseMessage response = await client.GetAsync(url);
@@ -46,5 +48,17 @@ class Program
             Console.WriteLine($"Error: {e.Message}");
             return null;
         }
+    }
+
+    public static float[] Questions()
+    {
+        Console.WriteLine("What is the latitude of the place?");
+        float latitude = float.Parse(Console.ReadLine());
+
+        Console.WriteLine("What is the longitude of the place?");
+        float longitude = float.Parse(Console.ReadLine());
+
+        float[] coordinates = { latitude, longitude };
+        return coordinates;
     }
 }
