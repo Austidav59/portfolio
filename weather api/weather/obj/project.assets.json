@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/austindavis/Cse310-Applied-Programing/weather api/weather/weather.csproj",
+      "projectUniqueName": "/Users/austindavis/Cse310-Applied-Programing/portfolio-1/weather api/weather/weather.csproj",
       "projectName": "weather",
-      "projectPath": "/Users/austindavis/Cse310-Applied-Programing/weather api/weather/weather.csproj",
+      "projectPath": "/Users/austindavis/Cse310-Applied-Programing/portfolio-1/weather api/weather/weather.csproj",
       "packagesPath": "/Users/austindavis/.nuget/packages/",
-      "outputPath": "/Users/austindavis/Cse310-Applied-Programing/weather api/weather/obj/",
+      "outputPath": "/Users/austindavis/Cse310-Applied-Programing/portfolio-1/weather api/weather/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/austindavis/.nuget/NuGet/NuGet.Config"
