@@ -27,7 +27,7 @@ class Program
         }
     }
 
-    public static async Task<HttpResponseMessage> fetchApi(float[] coordinates)
+    public static async Task<HttpResponseMessage?> fetchApi(float[] coordinates)
     {
         try
         {
@@ -54,10 +54,14 @@ class Program
     public static float[] Questions()
     {
         Console.WriteLine("What is the latitude of the place?");
+#pragma warning disable CS8604 // Possible null reference argument.
         float latitude = float.Parse(Console.ReadLine());
+#pragma warning restore CS8604 // Possible null reference argument.
 
         Console.WriteLine("What is the longitude of the place?");
+#pragma warning disable CS8604 // Possible null reference argument.
         float longitude = float.Parse(Console.ReadLine());
+#pragma warning restore CS8604 // Possible null reference argument.
 
         float[] coordinates = { latitude, longitude };
         return coordinates;
@@ -79,25 +83,37 @@ class Program
         while (!done)
         {
             Console.Write("\nEnter your choice (1-6): ");
+#pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
             string choice = Console.ReadLine();
+#pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
 
             switch (choice)
             {
                 case "1":
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
                     Console.WriteLine($"Location: {weatherData.name}");
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
                     break;
                 case "2":
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
                     double tempFahrenheit = (weatherData.main.temp - 273.15) * 9/5 + 32;
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
                     Console.WriteLine($"Temperature: {tempFahrenheit:F1}°F");
                     break;
                 case "3":
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
                     Console.WriteLine($"Weather: {weatherData.weather[0].description}");
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
                     break;
                 case "4":
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
                     Console.WriteLine($"Wind Speed: {weatherData.wind.speed} m/s");
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
                     break;
                 case "5":
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
                     Console.WriteLine($"Humidity: {weatherData.main.humidity}%");
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
                     break;
                 case "6":
                     done = true;
