@@ -1,10 +1,4 @@
-//
-//  cart.h
-//  Week 6 project
-//
-//  Created by Marisabel Trejo on 6/15/24.
-//
-// cart.h
+
 #ifndef CART_H
 #define CART_H
 
