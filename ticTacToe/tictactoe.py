@@ -1,14 +1,3 @@
-# 1. Name:
-#      -Austin Davise-
-# 2. Assignment Name:
-#      Lab 01: Tic-Tac-Toe
-# 3. Assignment Description:
-#      Play the game of Tic-Tac-Toe
-# 4. What was the hardest part? Be as specific as possible.
-#      -The hardest part about this program was gettin it to display correctly on the screen. -
-# 5. How long did it take for you to complete the assignment?
-#     6 hours
-
 import json
 
 # The characters used in the Tic-Tac-Too board.
