@@ -1,10 +1,4 @@
-//
-//  item.cpp
-//  shoppingCart
-//
-//  Created by Austin Davis on 10/14/24.
-//
-// item.cpp
+
 #include "item.h"
 
 Item::Item(std::string name, float price) : name(name), price(price) {}
