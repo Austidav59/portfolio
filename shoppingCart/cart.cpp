@@ -1,9 +1,4 @@
-//
-//  cart.cpp
-//  Week 6 project
-//
-//  Created by Marisabel Trejo on 6/15/24.
-//
+
 // cart.cpp
 #include <map>
 #include "item.h"
