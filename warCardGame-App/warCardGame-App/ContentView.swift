@@ -1,9 +1,4 @@
-//
-//  ContentView.swift
-//  warCardGame-App
-//
-//  Created by Austin Davis on 11/8/24.
-//
+
 
 import SwiftUI
 
