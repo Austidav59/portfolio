@@ -1,0 +1,208 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* typography and icons */
+
+h1{
+    color: #0F8CDF;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+i{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.fa-solid{
+    color: #999;
+}
+
+.liked{
+    color: red;
+}
+
+.retweeted {
+  color: limegreen;
+}
+
+/* layout */
+
+main, header{
+    width: 290px;
+    margin: 0 auto;
+}
+
+header{
+    padding-bottom: 25px;
+}
+
+.tweet-input-area {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* textareas + btn */
+
+textarea{
+    border: none;
+    resize: none;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+button{
+    background-color: #1DA1F2;
+    border: none;
+    color: white;
+    padding: 10px 19px;
+    border-radius: 20px;
+    width: 100%; 
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* tweet */
+
+.tweet{
+    border-top: 1px solid lightgray;
+    padding: 20px 0 0 0;
+    width: 100%;
+    margin: 15px 0;
+    position: relative;
+}
+
+.tweet-inner{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.tweet-details{
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    width: 160px;
+    cursor: pointer;
+}
+
+.tweet-detail{
+    display: flex;
+    gap: 4px;
+}
+
+.tweet-reply{
+    border-top: 1px solid lightgray;
+    padding: 20px 0 0 0px;
+    margin: 10px 0 10px 40px;
+    width: 80%;
+}
+
+.handle{
+    font-size: 12px;
+    font-weight: 500;
+    color: #555;
+    margin-top: 0;
+}
+
+.tweet-text{
+    width: 207px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* images */
+
+.profile-pic{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    width: 48px;
+}
+
+/* utility */
+.hidden{
+    display: none;
+}
+
+/* modal */
+.modal {
+    height: 250px;
+    width: 250px;
+    margin: 25px;
+    border: 2px solid #1DA1F2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    cursor: pointer;
+    display: none;
+}
+
+.rightside,
+.optionbutton{
+    margin: 10px 25px;
+    width: 200px;
+}
+
+.rightside {
+    text-align: right;
+    text-size-adjust: large;
+}
+
+.optionbutton {
+    width: 200px;
+    align-items: center;
+}
+
+/* Editor Modal */
+.editor-modal {
+    display: none;
+    justify-content: center;
+    border: 2px solid #1DA1F2;
+    margin: 10px;
+    width: 75%;
+    height: 75%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 1%;
+    left: 10%;
+}
+
+.textarea-edit{
+    padding: 5px;
+    height: 120px;
+    text-size-adjust: 12px;
+}
+
+.textarea-edit{
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.dimension {
+    justify-content: space-between;
+    width: 350px;
+    height: 350px;
+    margin: 40px;
+    text-align: center;
+
+}
+
+.exit-edit{
+    text-align: right;
+}
